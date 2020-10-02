@@ -1,3 +1,4 @@
+
 var principal = require('../principal/principal');
 
 describe('Mi test', ()=>{
@@ -6,3 +7,5 @@ describe('Mi test', ()=>{
         expect(resultado).toBe(10);
     });
 });
+
+
