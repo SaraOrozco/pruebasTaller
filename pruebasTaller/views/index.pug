@@ -2,16 +2,12 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
 
-  form(action="/suma", method="POST")
+  form(action="/operation", method="POST")
     table
       tr  
         td
-          input(type="text", name="intNum1", placeholder="Numero 1")
-      tr
-        td
-          input(type="text", name="intNum2", placeholder="Numero 2")
+          input(type="text", name="strOperation", placeholder="Escriba la operacion a ejecutar")
       tr  
         td  
            button.btn.btn-primary Calular
