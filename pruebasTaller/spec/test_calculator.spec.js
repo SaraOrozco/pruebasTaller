@@ -50,5 +50,29 @@ describe('Mi test', () => {
         var resultado = principal.calculadora('round(-20.56)');
         expect(resultado).toBe(-21);
     });
+    it('Flujo 11', () => {
+        var resultado = principal.calculadora('exp(-1)');
+        expect(resultado).toBe(0.37);
+    });
+
+    it('Flujo 12', () => {
+        var resultado = principal.calculadora('cosh(0)');
+        expect(resultado).toBe(1);
+    });
+
+    it('Flujo 13', () => {
+        var resultado = principal.calculadora('acos(-1)');
+        expect(resultado).toBe(3.14);
+    });
+
+    it('Flujo 14', () => {
+        var resultado = principal.calculadora('pow(4, 0.5)');
+        expect(resultado).toBe(2);
+    });
+
+    it('Flujo 15', () => {
+        var resultado = principal.calculadora('sign(20)');
+        expect(resultado).toBe(1);
+    });
 
 });
