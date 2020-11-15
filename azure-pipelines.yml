@@ -11,3 +11,12 @@ steps:
 - script: |
     npm install
   displayName: 'Compilacion'
+
+
+- script: |
+    npm run test
+  displayName: 'Ejecucion y validacion de pruebas'
+
+- script: |
+    npm run start-production
+  displayName: 'Generacion de version para instalar'
