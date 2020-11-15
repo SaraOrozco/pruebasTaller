@@ -4,7 +4,8 @@
     "private": true,
     "scripts": {
         "test": "jasmine spec/test_calculator.spec.js",
-        "start": "node ./bin/www"
+        "start": "node ./bin/www",
+        "start-production": "pm2 start ecosystem.config.js --env production"
     },
     "dependencies": {
         "cookie-parser": "~1.4.4",
@@ -14,6 +15,7 @@
         "jasmine": "^3.6.1",
         "mathjs": "^7.5.1",
         "morgan": "~1.9.1",
+        "pm2": "^4.5.0",
         "pug": "2.0.0-beta11"
     }
 }
