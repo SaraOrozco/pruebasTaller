@@ -8,7 +8,7 @@ describe('Mi test', () => {
     });
     it('Flujo 2', () => {
         var resultado = principal.calculadora('cos(pi/2)');
-        expect(resultado).toBe(1);
+        expect(resultado).toBe(0);
     });
 
     it('Flujo 3', () => {
