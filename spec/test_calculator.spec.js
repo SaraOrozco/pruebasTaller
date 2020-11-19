@@ -4,7 +4,7 @@ var Math = require('mathjs');
 describe('Mi test', () => {
     it('Flujo 1', () => {
         var resultado = principal.calculadora('3 * (5 + 6 ) / 11');
-        expect(resultado).toBe(3);
+        expect(resultado).toBe(4);
     });
     it('Flujo 2', () => {
         var resultado = principal.calculadora('cos(pi/2)');
